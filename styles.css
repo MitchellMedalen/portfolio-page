@@ -91,8 +91,12 @@ ul {
 }
 
 .footer {
-  border: solid;
+  padding: 10px;
+  background-image: linear-gradient(#537895, black);
+}
 
-  background-image: linear-gradient(#537895, #537895, black, black);
+.footer-p {
   text-align: center;
+  padding-top: 8em;
+  font-size: 15px;
 }
