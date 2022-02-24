@@ -1,13 +1,32 @@
 body {
   background-color: #537895;
-  text-align: center;
+  color: white;
+}
+
+hr {
+  width: 900px;
 }
 
 .header {
   background-image: linear-gradient(black, #537895);
   text-align: center;
-  padding: 60px;
+  padding: 30px;
   color: white;
+}
+
+.intro {
+  text-align: center;
+}
+
+.about {
+  padding: 90px;
+  text-align: center;
+  margin-left: 200px;
+  margin-right: 200px;
+}
+
+.contact {
+  text-align: center;
 }
 
 h1 {
@@ -23,17 +42,39 @@ h6 {
   margin-top: -30px;
 }
 
-img {
+p {
+  margin-top: 2em;
+  margin-bottom: 2em;
+  font-family: "Trebuchet MS";
+}
+
+.profile-img {
   padding: 1px;
   border-radius: 150px;
-  width: 500px;
+  width: 450px;
   height: auto;
 }
 
-.about {
-  padding: 90px;
-  color: red;
+ul {
+  display: inline-block;
+  text-align: left;
+  list-style: none;
 }
 
+.contact-heading {
+  text-align: center;
+}
 
+.mail-logo {
+  width: 70px;
+}
+
+.github-logo {
+  width: 118px;
+}
+
+.footer {
+  background-image: linear-gradient(#537895, #537895, black, black);
+  text-align: center;
+  padding: 100px;
 }
