@@ -1,3 +1,19 @@
-* {
-  background-color: grey;
+body {
+  background-color: #537895;
+  text-align: center;
+}
+
+.nav {
+  background-image: linear-gradient(black, #537895);
+  text-align: center;
+  padding: 60px;
+  color: white;
+  font-size: 30px;
+}
+
+img {
+  padding: 30px;
+  border-radius: 150px;
+  width: 500px;
+  height: auto;
 }
