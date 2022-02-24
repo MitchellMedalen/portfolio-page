@@ -3,17 +3,37 @@ body {
   text-align: center;
 }
 
-.nav {
+.header {
   background-image: linear-gradient(black, #537895);
   text-align: center;
   padding: 60px;
   color: white;
-  font-size: 30px;
+}
+
+h1 {
+  font-size: 80px;
+  font-family: "Courier New";
+  font-weight: lighter;
+}
+
+h6 {
+  font-family: "Courier New";
+  font-weight: lighter;
+  font-size: 25px;
+  margin-top: -30px;
 }
 
 img {
-  padding: 30px;
+  padding: 1px;
   border-radius: 150px;
   width: 500px;
   height: auto;
+}
+
+.about {
+  padding: 90px;
+  color: red;
+}
+
+
 }
