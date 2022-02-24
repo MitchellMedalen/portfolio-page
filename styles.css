@@ -5,6 +5,8 @@ body {
 
 hr {
   width: 900px;
+  background-color: green;
+  color: red;
 }
 
 .header {
@@ -12,6 +14,10 @@ hr {
   text-align: center;
   padding: 30px;
   color: white;
+}
+
+.header-job {
+  font-size: 20px;
 }
 
 .intro {
@@ -35,6 +41,10 @@ h1 {
   font-weight: lighter;
 }
 
+h3 {
+  font-size: 30px;
+}
+
 h6 {
   font-family: "Courier New";
   font-weight: lighter;
@@ -43,9 +53,17 @@ h6 {
 }
 
 p {
-  margin-top: 2em;
-  margin-bottom: 2em;
+  font-size: 20px;
+  margin-top: 1em;
+  margin-bottom: 1em;
   font-family: "Trebuchet MS";
+}
+
+ul {
+  display: inline-block;
+  text-align: left;
+  list-style: none;
+  font-size: 17px;
 }
 
 .profile-img {
@@ -55,14 +73,13 @@ p {
   height: auto;
 }
 
-ul {
-  display: inline-block;
-  text-align: left;
-  list-style: none;
-}
-
 .contact-heading {
   text-align: center;
+}
+
+.contact-p {
+  font-size: 15px;
+  height: 25px;
 }
 
 .mail-logo {
@@ -74,7 +91,8 @@ ul {
 }
 
 .footer {
+  border: solid;
+
   background-image: linear-gradient(#537895, #537895, black, black);
   text-align: center;
-  padding: 100px;
 }
