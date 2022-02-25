@@ -5,8 +5,6 @@ body {
 
 hr {
   width: 900px;
-  background-color: green;
-  color: red;
 }
 
 .header {
@@ -59,7 +57,8 @@ p {
   font-family: "Trebuchet MS";
 }
 
-ul {
+ul,
+ol {
   display: inline-block;
   text-align: left;
   font-size: 25px;
@@ -80,6 +79,12 @@ ul {
   font-size: 15px;
   height: 25px;
 }
+a:visited {
+  color: #942b3b;
+}
+a:hover {
+  color: #99d98c;
+}
 
 .mail-logo {
   width: 70px;
@@ -87,6 +92,10 @@ ul {
 
 .github-logo {
   width: 118px;
+}
+
+.linkedin-logo {
+  width: 70px;
 }
 
 .footer {
